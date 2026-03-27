@@ -34,7 +34,7 @@ user_choice = int(
 )
 
 if user_choice < 0 or user_choice > 2:
-    print("Invalid choice. You lose.")
+    print("Invalid choice. You lose the game.")
 else:
     print("\nYou chose:")
     print(games[user_choice])
